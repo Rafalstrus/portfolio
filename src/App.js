@@ -14,7 +14,6 @@ class App extends Component {
   async componentDidMount() {
     try{
       const allTexts = await this.getLanguages();
-
       this.setState({ allTexts })
 } catch (error) {
       console.log(error)
