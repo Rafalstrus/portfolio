@@ -1,0 +1,14 @@
+[{
+    "languageSymbol":"PL",
+    "aboutAuthor":{
+        "name": "Rafał Struś",
+        "informations": "ukończyłem technikum informatycznę, chcę zostać programistą"
+    }
+},
+{
+    "languageSymbol":"EN",
+    "aboutAuthor":{
+        "name": "Rafał Struś",
+        "informations":"i have finished IT Technical School and i am going to be a programmer"
+    }
+}]
