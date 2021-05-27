@@ -1,14 +1,32 @@
-[{
-    "languageSymbol":"PL",
-    "aboutAuthor":{
-        "name": "Rafał Struś",
-        "informations": "ukończyłem technikum informatycznę, chcę zostać programistą"
+[
+    {
+        "languageSymbol": "PL",
+        "aboutAuthor": {
+            "name": "Rafał Struś",
+            "informations": "ukończyłem technikum informatycznę, chcę zostać programistą"
+        },
+        "projects": [
+            {
+                "name": "database generator",
+                "technologies":"python",
+                "img": "images/project0",
+                "description": "mała biblioteka napisana w pythonie, służąca do generowanie baz danych w różnych formatach, z najpopularniejszymi polskimi imionami, nazwiskami, miastami i etc."
+            }
+        ]
+    },
+    {
+        "languageSymbol": "EN",
+        "aboutAuthor": {
+            "name": "Rafał Struś",
+            "informations": "i have finished IT Technical School and i am going to be a programmer"
+        },        
+        "projects": [
+            {
+                "name": "database generator",
+                "technologies":"python",
+                "img": "images/project0",
+                "description": "small library write in python, it is make to generate databases in different formats, containing most popular polish first names, second names, cities and etc."
+            }
+        ]
     }
-},
-{
-    "languageSymbol":"EN",
-    "aboutAuthor":{
-        "name": "Rafał Struś",
-        "informations":"i have finished IT Technical School and i am going to be a programmer"
-    }
-}]
+]
