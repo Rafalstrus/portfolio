@@ -6,6 +6,7 @@ export const SliderContainer = props =>(
         <Language 
         lang = {props.lang}
         languageCodeChange = {props.languageCodeChange}
+        currentLang = {props.currentLang}
         />
         <ColorChange 
         colorMode = {props.colorMode}

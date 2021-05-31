@@ -10,9 +10,9 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      currentLanguageCode :"PL",
+      currentLanguageCode :(cookies.get('languageCode')==='PL') ? "PL": "EN",
       allTexts : [],
-      colorMode: cookies.get('colorMode')
+      colorMode: (cookies.get('colorMode')==='dark') ? "dark" : "light" 
     }
   }
   
@@ -33,6 +33,7 @@ class App extends Component {
 
   handleCurrentLanguageCode = code => {
     this.setState({currentLanguageCode: code})
+    cookies.set('languageCode',(this.state.currentLanguageCode==="PL") ? "EN" : "PL")
   }
 
   handleChangeColorMode = mode => {
@@ -44,6 +45,7 @@ class App extends Component {
       <div className="App">
       <SliderContainer
       lang = {this.state.allTexts}
+      currentLang = {this.state.currentLanguageCode}
       languageCodeChange = {this.handleCurrentLanguageCode}
       colorMode ={this.state.colorMode}
       colorChange = {this.handleChangeColorMode}
