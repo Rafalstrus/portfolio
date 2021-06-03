@@ -1,0 +1,13 @@
+#sticky-container{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: (var(--sticky));
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-gap: 20px;
+    justify-self: start
+}
+.nav.item3{
+    column-gap: 12%;
+}

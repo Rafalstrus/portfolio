@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './css/App.css';
-import { SliderContainer } from './components/slider/slider-container.component';
+import { StickyContainer } from './components/sticky/sticky-container.component';
 import { AuthorHeader } from './components/aboutAuthor/header.component';
 import { ProjectsContainer } from './components/projects/projects-container.component';
 import Cookies from 'universal-cookie';
@@ -43,7 +43,7 @@ class App extends Component {
   render() {
     return(
       <div className="App">
-      <SliderContainer
+      <StickyContainer
       lang = {this.state.allTexts}
       currentLang = {this.state.currentLanguageCode}
       languageCodeChange = {this.handleCurrentLanguageCode}
