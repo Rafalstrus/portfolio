@@ -8,14 +8,14 @@ const colors = {
         headerText: "rgb(201,209,219)",
         paragrafText:"rgb(139,148,158)",
         clickableText: "rgb(88,156,255)",
-        sticky: "rgb(10,13,16)"
+        sticky: "rgb(22,27,34)"
     },
     light: {
         backgroundColor:"rgb(246,243,239)",
         headerText: "rgb(54,46,46)",
         paragrafText:"rgb(139,148,158)",
         clickableText: "rgb(52, 163, 85)",
-        sticky: "rgb(247,244,240)"
+        sticky: "rgb(225,222,218)"
     }
 }
 
@@ -38,17 +38,17 @@ const setColors = props =>{
     )
     document.body.style.setProperty(
         "--sticky",
-        props.clickableText
+        props.sticky
     )
 }
 
 export const ColorChange = props =>(
-    <span>
+    <div class ='nav-item2'>
         <button onClick = {e =>{
             props.colorChange((props.colorMode==="dark") ? "light" : "dark")
             cookies.set('colorMode',(props.colorMode==="dark") ? "light" : "dark")
         }
         }>{(props.colorMode==="dark") ? "light" : "dark"}</button>
         {setColors(colors[props.colorMode])}
-    </span>
+    </div>
 )

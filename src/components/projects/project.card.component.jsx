@@ -1,6 +1,6 @@
 import React from 'react';
 export const Project = props =>(
-<div>
+<div class="project-card">
     <p>{props.aboutProject.name}</p>
     <p>{props.aboutProject.technologies}</p>
     {/*<img>{props.aboutProject.img}</img>*/}

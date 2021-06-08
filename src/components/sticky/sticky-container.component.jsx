@@ -4,25 +4,31 @@ import { Language } from './language.component';
 import './sticky.css';
 export const StickyContainer = props => (
     <div id="sticky-container">
-        <span class ='nav.item1'>
+        <div id="sticky-container-wrapper">
+        <div id="settings">
+        <div class ='nav-item1'>
             <Language
                 lang={props.lang}
                 languageCodeChange={props.languageCodeChange}
                 currentLang={props.currentLang}
             />
-        </span>
+        </div>
         <ColorChange
             colorMode={props.colorMode}
             colorChange={props.colorChange}
         />
-        <span class ='nav.item3'>
+        </div>
+        <div id="navigation">
+        <div class ='nav-item3'><a  href='#aboutAuthor-container' >
             About Author
-        </span>
-        <span class ='nav.item4'>
+        </a></div>
+        <div class ='nav-item4'><a href='#projects-container' >
             Projects
-        </span>
-        <span class ='nav.item5'>
+        </a></div>
+        <div class ='nav-item5'><a href='#contacts-container' >
             Contacts
-        </span>
+        </a></div>
+        </div>
+    </div>
     </div>
 )

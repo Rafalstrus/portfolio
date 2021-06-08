@@ -11,6 +11,12 @@
                 "technologies":"python",
                 "img": "images/project0",
                 "description": "mała biblioteka napisana w pythonie, służąca do generowanie baz danych w różnych formatach, z najpopularniejszymi polskimi imionami, nazwiskami, miastami i etc."
+            },
+            {
+                "name": "website about money",
+                "technologies": ["react","html","css","js"],
+                "img": "images/project1",
+                "description": "strona uzywająca api narodowego banku polskiego, przelicza kursy walut, po aktualnych kursach"
             }
         ]
     },
@@ -26,6 +32,12 @@
                 "technologies":"python",
                 "img": "images/project0",
                 "description": "small library write in python, it is make to generate databases in different formats, containing most popular polish first names, second names, cities and etc."
+            },
+            {
+                "name": "website about money",
+                "technologies": ["react","html","css","js"],
+                "img": "images/project1",
+                "description": "website using api of the Polish National Bank, convers currency rates at the current rates"
             }
         ]
     }

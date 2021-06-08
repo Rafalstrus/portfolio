@@ -2,12 +2,31 @@
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
-    background-color: (var(--sticky));
-    display: grid;
-    grid-template-columns: repeat(5, 100px);
-    grid-gap: 20px;
-    justify-self: start
+    background-color: var(--sticky);
+    padding: 10px;
+   
 }
-.nav.item3{
-    column-gap: 12%;
+#sticky-container-wrapper{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+#settings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+#navigation{
+    display: flex;
+    margin-left: auto;
+    order: 2;
+    justify-content: space-between;
+    align-items: center; 
+    white-space: nowrap;
+    gap: 10px;
+}
+#sticky-container-wrapper #navigation :hover > * , #sticky-container-wrapper #settings :hover > *{
+    border-color: red;
+    background: #e1e1e1;
 }

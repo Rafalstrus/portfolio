@@ -55,7 +55,6 @@ class App extends Component {
         <AuthorHeader 
         informations = {info}
         />
-
         <ProjectsContainer
         projects = {info.projects}
         />
