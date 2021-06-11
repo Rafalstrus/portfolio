@@ -1,6 +1,6 @@
 import React from 'react';
 export const AuthorHeader = props =>(
-    <div className="authorHeader">
+    <div id="authorHeader">
             <div>
             <p>
                 {props.informations.aboutAuthor.name}

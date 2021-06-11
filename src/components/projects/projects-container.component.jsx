@@ -1,5 +1,6 @@
 import React from 'react';
 import { Project } from './project.card.component';
+import './project.card.css';
 export const ProjectsContainer = props =>(
 <div id="projects-container">
 {props.projects.map(

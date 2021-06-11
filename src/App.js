@@ -60,6 +60,9 @@ class App extends Component {
         />
     </div>
         ))}
+        <div>
+          contact
+        </div>
         </div>
     )
   }

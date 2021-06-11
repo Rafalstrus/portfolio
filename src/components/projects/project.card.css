@@ -1,0 +1,60 @@
+#projects-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.project-card{
+    margin-top: 15px;
+    min-height: 300px;
+    border-radius: 10px;
+    
+}
+.project-image{
+    height: 225px;
+    width: 350px;
+    margin: auto;
+    margin-top: 5px;
+    position: relative;
+}
+img{
+    width: 100%;
+    
+    height: 100%;
+}
+.textOnImage{
+    position: absolute;
+    text-align: center;
+    background-color:   var(--backgroundColorWithOpacity);
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 0;
+    border-radius: 10px;
+}
+.onHover{
+    display: none;
+    position: absolute;
+    text-align: center;
+    background-color: var(--backgroundColorWithOpacity);
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+.onclick{
+    display: none;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background-color:  var(--backgroundColorWithOpacity);
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.textOnImage:hover~.onHover{
+    display:block;
+}
+p{
+    cursor:context-menu;
+    color: var(--header-text);
+}

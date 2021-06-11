@@ -6,7 +6,7 @@ export const StickyContainer = props => (
     <div id="sticky-container">
         <div id="sticky-container-wrapper">
         <div id="settings">
-        <div class ='nav-item1'>
+        <div className ='nav-item1'>
             <Language
                 lang={props.lang}
                 languageCodeChange={props.languageCodeChange}
@@ -19,13 +19,13 @@ export const StickyContainer = props => (
         />
         </div>
         <div id="navigation">
-        <div class ='nav-item3'><a  href='#aboutAuthor-container' >
+        <div className ='nav-item3'><a  href='#aboutAuthor-container' >
             About Author
         </a></div>
-        <div class ='nav-item4'><a href='#projects-container' >
+        <div className ='nav-item4'><a href='#projects-container' >
             Projects
         </a></div>
-        <div class ='nav-item5'><a href='#contacts-container' >
+        <div className ='nav-item5'><a href='#contacts-container' >
             Contacts
         </a></div>
         </div>

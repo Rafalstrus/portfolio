@@ -1,5 +1,5 @@
 #sticky-container{
-    position: -webkit-sticky; /* Safari */
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     background-color: var(--sticky);
@@ -30,3 +30,13 @@
     border-color: red;
     background: #e1e1e1;
 }
+button,select,a {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
