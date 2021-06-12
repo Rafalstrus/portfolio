@@ -6,6 +6,7 @@ export const ProjectsContainer = props =>(
 {props.projects.map(
     (data) =>
     <Project key = {data.name}
+    setProjectSlide = {props.setProjectSlide}
         aboutProject={data}
     ></Project>
 )}

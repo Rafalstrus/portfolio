@@ -12,7 +12,8 @@ class App extends Component {
     this.state = {
       currentLanguageCode :(cookies.get('languageCode')==='PL') ? "PL": "EN",
       allTexts : [],
-      colorMode: (cookies.get('colorMode')==='dark') ? "dark" : "light" 
+      colorMode: (cookies.get('colorMode')==='dark') ? "dark" : "light",
+      projectPhoto: ""
     }
   }
   
@@ -39,7 +40,9 @@ class App extends Component {
   handleChangeColorMode = mode => {
     this.setState({colorMode: mode})
   }
-
+  HandleProjectData = projectPhoto =>{
+    this.setState({projectPhoto})
+  }
   render() {
     return(
       <div className="App">
@@ -57,12 +60,17 @@ class App extends Component {
         />
         <ProjectsContainer
         projects = {info.projects}
+        setProjectSlide = {this.HandleProjectData}
         />
     </div>
         ))}
         <div>
           contact
         </div>
+        <div id="ProjectSlide"><img id="ProjectBigimage"></img><div id="exit-Button" onClick = {e =>{
+      document.getElementById("ProjectSlide").style.display = "none";
+
+        }}>X</div></div>
         </div>
     )
   }

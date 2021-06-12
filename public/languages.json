@@ -4,7 +4,7 @@
         "aboutAuthor": {
             "name": "Rafał Struś",
             "informations": "ukończyłem technikum informatycznę, chcę zostać programistą",
-            "technologies": [],
+            "technologies": ["javascript","php","html","sql","react","css"],
             "wantToKnow" : [],
             "image":""
         },
@@ -28,7 +28,7 @@
         "aboutAuthor": {
             "name": "Rafał Struś",
             "informations": "i have finished IT Technical School and i am going to be a programmer",
-            "technologies": [],
+            "technologies": ["javascript","php","html","sql","react","css"],
             "wantToKnow" : [],
             "image":""
         },        

@@ -4,6 +4,7 @@
     top: 0;
     background-color: var(--sticky);
     padding: 10px;
+    height:50px;
    
 }
 #sticky-container-wrapper{
