@@ -13,7 +13,7 @@ export const Project = props =>(
     <p className="textOnImage">{props.aboutProject.name}</p>
     <p className="onHover">{props.aboutProject.technologies}</p>
     <p className="onHover2" id={props.aboutProject.name}>{props.aboutProject.description}</p>
-        <img className ="projectImages" src={props.aboutProject.img} draggable="false">
+        <img className ="projectImages" src={props.aboutProject.img} alt ="" draggable="false">
             </img></div>
 </div>
 )

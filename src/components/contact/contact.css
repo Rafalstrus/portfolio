@@ -1,0 +1,20 @@
+#contact-container{
+background-color:var(--sticky);
+max-width: 1600px;
+min-width: 1200px;
+margin: auto;
+margin-top: 10px;
+border-radius: 10px;
+}
+.contact-info{
+    font-size: 20px;
+    color: green;
+}
+.contact-type{
+    
+}
+#contact-info-container{
+    margin:auto;
+    width: 500px;
+    text-align: justify;
+}

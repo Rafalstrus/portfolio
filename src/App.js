@@ -3,6 +3,8 @@ import './css/App.css';
 import { StickyContainer } from './components/sticky/sticky-container.component';
 import { AuthorHeader } from './components/aboutAuthor/header.component';
 import { ProjectsContainer } from './components/projects/projects-container.component';
+import {Contact} from './components/contact/contact-container.component';
+import {ProjectSlide} from './components/project-slide/project-slide-container.component'
 import Cookies from 'universal-cookie';
 const cookies = new Cookies();
 
@@ -62,15 +64,15 @@ class App extends Component {
         projects = {info.projects}
         setProjectSlide = {this.HandleProjectData}
         />
-    </div>
-        ))}
-        <div>
-          contact
+    
+        
+        <Contact
+        contactInfo = {info.contact}
+        />
         </div>
-        <div id="ProjectSlide"><img id="ProjectBigimage"></img><div id="exit-Button" onClick = {e =>{
-      document.getElementById("ProjectSlide").style.display = "none";
-
-        }}>X</div></div>
+        ))}
+<ProjectSlide
+/>
         </div>
     )
   }

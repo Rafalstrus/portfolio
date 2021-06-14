@@ -31,7 +31,7 @@
     border-color: red;
     background: #e1e1e1;
 }
-button,select,a {
+button,select,.navi-buttons {
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;

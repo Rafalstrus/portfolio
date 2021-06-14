@@ -19,13 +19,13 @@ export const StickyContainer = props => (
         />
         </div>
         <div id="navigation">
-        <div className ='nav-item3'><a  href='#aboutAuthor-container' >
+        <div className ='nav-item3'><a  href='#aboutAuthor-container' className="navi-buttons">
             About Author
         </a></div>
-        <div className ='nav-item4'><a href='#projects-container' >
+        <div className ='nav-item4'><a href='#projects-container' className="navi-buttons">
             Projects
         </a></div>
-        <div className ='nav-item5'><a href='#contacts-container' >
+        <div className ='nav-item5'><a href='#contacts-container' className="navi-buttons">
             Contacts
         </a></div>
         </div>

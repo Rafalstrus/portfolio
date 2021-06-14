@@ -13,15 +13,23 @@
                 "name": "database generator",
                 "technologies":"python",
                 "img": "projects-photos/databaseGenerator.png",
-                "description": "mała biblioteka napisana w pythonie, służąca do generowanie baz danych w różnych formatach, z najpopularniejszymi polskimi imionami, nazwiskami, miastami i etc."
+                "description": "mała biblioteka napisana w pythonie, służąca do generowanie baz danych w różnych formatach, z najpopularniejszymi polskimi imionami, nazwiskami, miastami i etc.",
+                "github-Link": "https://github.com/Rafalstrus/databasegenerator"
             },
             {
                 "name": "website about money",
                 "technologies": ["react","html","css","js"],
                 "img": "projects-photos/website-about-money.png",
-                "description": "strona uzywająca api narodowego banku polskiego, przelicza kursy walut, po aktualnych kursach"
+                "description": "strona uzywająca api narodowego banku polskiego, przelicza kursy walut, po aktualnych kursach",
+                "github-Link": "https://github.com/Rafalstrus/Website-About-Money-"
             }
-        ]
+        ],
+        "contact" :{
+            "contact":"KONTAKT",
+            "cellphone-Number":"Numer Telefonu: ",
+            "email-address": "Adres Email:  ",
+            "github-Link": "Github: "
+        }
     },
     {
         "languageSymbol": "EN",
@@ -37,14 +45,22 @@
                 "name": "database generator",
                 "technologies":"python",
                 "img": "projects-photos/databaseGenerator.png",
-                "description": "small library write in python, it is make to generate databases in different formats, containing most popular polish first names, second names, cities and etc."
+                "description": "small library write in python, it is make to generate databases in different formats, containing most popular polish first names, second names, cities and etc.",
+                "github-Link": "https://github.com/Rafalstrus/databasegenerator"
             },
             {
                 "name": "website about money",
                 "technologies": ["react","html","css","js"],
                 "img": "projects-photos/website-about-money.png",
-                "description": "website using api of the Polish National Bank, convers currency rates at the current rates"
+                "description": "website using api of the Polish National Bank, convers currency rates at the current rates",
+                "github-Link": "https://github.com/Rafalstrus/Website-About-Money-"
             }
-        ]
+        ],
+        "contact" :{
+            "contact":"CONTACT",
+            "cellphone-Number":"Cellphone Number: ",
+            "email-address": "Email Address: ",
+            "github-Link": "Github: "
+        }
     }
 ]
