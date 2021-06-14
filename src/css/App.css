@@ -9,7 +9,6 @@
   min-width: 1200px;
   margin: auto;
   margin-top: 10px;
-  background-color: var(--sticky);
   border-radius: 10px;
 }
 #ProjectSlide{
@@ -46,6 +45,9 @@ border-radius: 10px;
 a{
   text-decoration: none;
   color: var(--header-text);
+}
+i{
+  /*max-width: 25px;*/
 }
 /*.App-logo {
   height: 40vmin;

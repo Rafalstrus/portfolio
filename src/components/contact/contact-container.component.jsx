@@ -2,7 +2,7 @@ import React from 'react';
 import './contact.css'
 export const Contact = props => (
     <div id="contact-container">
-        <p>{props.contactInfo.contact}</p>
+        <p className="header">{props.contactInfo.contact}</p>
         <div id="contact-info-container">
             <div id="cellphone-Number">
                 <span className="contact-type">{props.contactInfo["cellphone-Number"]}</span>

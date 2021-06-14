@@ -5,6 +5,7 @@ import { AuthorHeader } from './components/aboutAuthor/header.component';
 import { ProjectsContainer } from './components/projects/projects-container.component';
 import {Contact} from './components/contact/contact-container.component';
 import {ProjectSlide} from './components/project-slide/project-slide-container.component'
+
 import Cookies from 'universal-cookie';
 const cookies = new Cookies();
 
@@ -60,6 +61,7 @@ class App extends Component {
         <AuthorHeader 
         informations = {info}
         />
+        <p className="header">{info["projects-header"]}</p>
         <ProjectsContainer
         projects = {info.projects}
         setProjectSlide = {this.HandleProjectData}

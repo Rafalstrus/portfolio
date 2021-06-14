@@ -1,19 +1,18 @@
 import React from 'react';
 export const Project = props =>(
-<div className="project-card" onClick = {e =>{
-    props.setProjectSlide(props.aboutProject.img)
-    document.getElementById("ProjectBigimage").src = props.aboutProject.img;
-    (document.getElementById("ProjectSlide").style.display === "block") ?
-    document.getElementById("ProjectSlide").style.display = "none":
-    document.getElementById("ProjectSlide").style.display = "block";
-}}
-
+<div className="project-card" 
 >
-    <div className="project-image">
-    <p className="textOnImage">{props.aboutProject.name}</p>
-    <p className="onHover">{props.aboutProject.technologies}</p>
-    <p className="onHover2" id={props.aboutProject.name}>{props.aboutProject.description}</p>
-        <img className ="projectImages" src={props.aboutProject.img} alt ="" draggable="false">
-            </img></div>
+        <img className ="project-image" src={props.aboutProject.img} alt ="" draggable="false"
+        onClick = {e =>{
+            props.setProjectSlide(props.aboutProject.img)
+            document.getElementById("ProjectBigimage").src = props.aboutProject.img;
+            (document.getElementById("ProjectSlide").style.display === "block") ?
+            document.getElementById("ProjectSlide").style.display = "none":
+            document.getElementById("ProjectSlide").style.display = "block";
+        }}>
+            </img>
+            <p>{props.aboutProject.name}</p>
+    <p >{props.aboutProject.technologies.map((technologyname) => technologyname+",")}</p>
+    {/*<p id={props.aboutProject.name}>{props.aboutProject.description}</p>*/}
 </div>
 )

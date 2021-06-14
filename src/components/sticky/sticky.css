@@ -28,11 +28,10 @@
     gap: 10px;
 }
 #sticky-container-wrapper #navigation :hover > * , #sticky-container-wrapper #settings :hover > *{
-    border-color: red;
-    background: #e1e1e1;
+    cursor: pointer;
 }
 button,select,.navi-buttons {
-    background-color: #4CAF50; /* Green */
+    background-color: var(--sticky);
     border: none;
     color: white;
     padding: 15px 32px;
@@ -41,3 +40,9 @@ button,select,.navi-buttons {
     display: inline-block;
     font-size: 16px;
   }
+input:focus{
+    outline: none;
+}
+.header{
+    font-size: 25px;
+}

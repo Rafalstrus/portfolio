@@ -1,5 +1,4 @@
 #contact-container{
-background-color:var(--sticky);
 max-width: 1600px;
 min-width: 1200px;
 margin: auto;
@@ -8,7 +7,7 @@ border-radius: 10px;
 }
 .contact-info{
     font-size: 20px;
-    color: green;
+    color: #4CAF50;;
 }
 .contact-type{
     
