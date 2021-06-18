@@ -2,33 +2,80 @@
     {
         "languageSymbol": "PL",
         "aboutAuthor": {
-            "header" : "O Autorze",
+            "header": "O Autorze",
             "name": "Rafał Struś",
-            "informations": "Nazywam się Rafał Struś, w tym roku ukończyłem technikum informatycznę, staram się rozwijać pasję związaną z programowaniem i uczyć się nowych rzeczy",
-            "technologies": ["javascript","php","html","sql","react","css"],
-            "wantToKnow" : [],
-            "image":""
+            "informations": "Nazywam się Rafał Struś, w tym roku ukończyłem technikum informatycznę, planuję w najbliższym czasie kontynówać naukę na studiach informatycznych. Programowania uczę się od kilku lat, codziennie staram się rozwijać pasję związaną z programowaniem i uczyć się nowych rzeczy",
+            "technologies": [
+                "javascript",
+                "php",
+                "html",
+                "sql",
+                "react",
+                "css"
+            ],
+            "wantToKnow": [],
+            "image": ""
         },
-        "projects-header":"Projekty",
+        "projects-header": "Projekty",
+        "technologies": {
+            "header": "Technologie",
+            "technologies-headers": [
+                {
+                    "header": "Dobrze Znam",
+                    "technologies": [
+                        "html",
+                        "mysql",
+                        "python",
+                        "css",
+                        "javascript",
+                        "php"
+                    ]
+                },
+                {
+                    "header": "Uczę Się",
+                    "technologies": [
+                        "react",
+                        "node.js",
+                        "sass"
+                    ]
+                },
+                {
+                    "header": "Chcę poznać",
+                    "technologies": [
+                        "laravel",
+                        "react-native"
+                    ]
+                }
+            ]
+        },
         "projects": [
             {
                 "name": "database generator",
-                "technologies":["python","sql","html"],
+                "technologies": [
+                    "python",
+                    "sql",
+                    "html"
+                ],
                 "img": "projects-photos/databaseGenerator.png",
                 "description": "mała biblioteka napisana w pythonie, służąca do generowanie baz danych w różnych formatach, z najpopularniejszymi polskimi imionami, nazwiskami, miastami i etc.",
                 "github-Link": "https://github.com/Rafalstrus/databasegenerator"
             },
             {
                 "name": "website about money",
-                "technologies": ["react","html","css","js"],
+                "technologies": [
+                    "react",
+                    "html",
+                    "css",
+                    "js"
+                ],
                 "img": "projects-photos/website-about-money.png",
                 "description": "strona uzywająca api narodowego banku polskiego, przelicza kursy walut, po aktualnych kursach",
                 "github-Link": "https://github.com/Rafalstrus/Website-About-Money-"
             }
         ],
-        "contact" :{
-            "contact":"KONTAKT",
-            "cellphone-Number":"Numer Telefonu: ",
+        "contact": {
+            "contact": "KONTAKT",
+            "cellphone-Number": "Numer Telefonu: ",
             "email-address": "Adres Email:  ",
             "github-Link": "Github: "
         }
@@ -36,33 +83,71 @@
     {
         "languageSymbol": "EN",
         "aboutAuthor": {
-            "header" : "About Author",
+            "header": "About Author",
             "name": "Rafał Struś",
             "informations": "i have finished IT Technical School and i am going to be a programmer",
-            "technologies": ["javascript","php","html","sql","react","css"],
-            "wantToKnow" : [],
-            "image":""
-        },  
-        "projects-header":"Projects",      
+            "image": ""
+        },
+        "projects-header": "Projects",
+        "technologies": {
+            "header": "Technologies",
+            "technologies-headers": [
+                {
+                    "header": "I Well Known",
+                    "technologies": [
+                        "html",
+                        "mysql",
+                        "python",
+                        "css",
+                        "javascript",
+                        "php"
+                    ]
+                },
+                {
+                    "header": "I Am Learning",
+                    "technologies": [
+                        "react",
+                        "node.js",
+                        "sass"
+                    ]
+                },
+                {
+                    "header": "I Want To Know",
+                    "technologies": [
+                        "laravel",
+                        "react-native"
+                    ]
+                }
+            ]
+        },
         "projects": [
             {
                 "name": "database generator",
-                "technologies":["python","sql","html"],
+                "technologies": [
+                    "python",
+                    "sql",
+                    "html"
+                ],
                 "img": "projects-photos/databaseGenerator.png",
                 "description": "small library write in python, it is make to generate databases in different formats, containing most popular polish first names, second names, cities and etc.",
                 "github-Link": "https://github.com/Rafalstrus/databasegenerator"
             },
             {
                 "name": "website about money",
-                "technologies": ["react","html","css","js"],
+                "technologies": [
+                    "react",
+                    "html",
+                    "css",
+                    "js"
+                ],
                 "img": "projects-photos/website-about-money.png",
                 "description": "website using api of the Polish National Bank, convers currency rates at the current rates",
                 "github-Link": "https://github.com/Rafalstrus/Website-About-Money-"
             }
         ],
-        "contact" :{
-            "contact":"CONTACT",
-            "cellphone-Number":"Cellphone Number: ",
+        "contact": {
+            "contact": "CONTACT",
+            "cellphone-Number": "Cellphone Number: ",
             "email-address": "Email Address: ",
             "github-Link": "Github: "
         }
