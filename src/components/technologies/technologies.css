@@ -1,0 +1,16 @@
+.technology-header{
+    font-size: 20px;
+    color: #4CAF50;
+}
+.technology-image{
+    width: 40px;
+    height: 40px;
+}
+.technolgy-block{
+    display: inline-block;
+    padding: 10px;
+}
+.technolgy-row{
+    margin: auto;
+    /* text-align: justify ; */
+}

@@ -50,17 +50,6 @@
         },
         "projects": [
             {
-                "name": "database generator",
-                "technologies": [
-                    "python",
-                    "sql",
-                    "html"
-                ],
-                "img": "projects-photos/databaseGenerator.png",
-                "description": "mała biblioteka napisana w pythonie, służąca do generowanie baz danych w różnych formatach, z najpopularniejszymi polskimi imionami, nazwiskami, miastami i etc.",
-                "github-Link": "https://github.com/Rafalstrus/databasegenerator"
-            },
-            {
                 "name": "website about money",
                 "technologies": [
                     "react",
@@ -70,7 +59,18 @@
                 ],
                 "img": "projects-photos/website-about-money.png",
                 "description": "strona uzywająca api narodowego banku polskiego, przelicza kursy walut, po aktualnych kursach",
-                "github-Link": "https://github.com/Rafalstrus/Website-About-Money-"
+                "link": "https://github.com/Rafalstrus/Website-About-Money-"
+            },
+            {
+                "name": "database generator",
+                "technologies": [
+                    "python",
+                    "sql",
+                    "html"
+                ],
+                "img": "projects-photos/databaseGenerator.png",
+                "description": "mała biblioteka napisana w pythonie, służąca do generowanie baz danych w różnych formatach, z najpopularniejszymi polskimi imionami, nazwiskami, miastami i etc.",
+                "link": "https://github.com/Rafalstrus/databasegenerator"
             }
         ],
         "contact": {
@@ -78,14 +78,15 @@
             "cellphone-Number": "Numer Telefonu: ",
             "email-address": "Adres Email:  ",
             "github-Link": "Github: "
-        }
+        },
+        "footer": "Strona stworzona przez Rafała Struś"
     },
     {
         "languageSymbol": "EN",
         "aboutAuthor": {
             "header": "About Author",
             "name": "Rafał Struś",
-            "informations": "i have finished IT Technical School and i am going to be a programmer",
+            "informations": "I am Rafał Struś, in this year I have finished IT Technican high school, and I am going to continue education on University to study IT. I am learning programming for several years. Every day I try to develop programming passion and learn new things",
             "image": ""
         },
         "projects-header": "Projects",
@@ -122,17 +123,6 @@
         },
         "projects": [
             {
-                "name": "database generator",
-                "technologies": [
-                    "python",
-                    "sql",
-                    "html"
-                ],
-                "img": "projects-photos/databaseGenerator.png",
-                "description": "small library write in python, it is make to generate databases in different formats, containing most popular polish first names, second names, cities and etc.",
-                "github-Link": "https://github.com/Rafalstrus/databasegenerator"
-            },
-            {
                 "name": "website about money",
                 "technologies": [
                     "react",
@@ -142,7 +132,18 @@
                 ],
                 "img": "projects-photos/website-about-money.png",
                 "description": "website using api of the Polish National Bank, convers currency rates at the current rates",
-                "github-Link": "https://github.com/Rafalstrus/Website-About-Money-"
+                "link": "https://github.com/Rafalstrus/Website-About-Money-"
+            },
+            {
+                "name": "database generator",
+                "technologies": [
+                    "python",
+                    "sql",
+                    "html"
+                ],
+                "img": "projects-photos/databaseGenerator.png",
+                "description": "small library write in python, it is make to generate databases in different formats, containing most popular polish first names, second names, cities and etc.",
+                "link": "https://github.com/Rafalstrus/databasegenerator"
             }
         ],
         "contact": {
@@ -150,6 +151,7 @@
             "cellphone-Number": "Cellphone Number: ",
             "email-address": "Email Address: ",
             "github-Link": "Github: "
-        }
+        },
+        "footer": "Website created by Rafał Struś"
     }
 ]

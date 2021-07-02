@@ -31,18 +31,23 @@
     cursor: pointer;
 }
 button,select,.navi-buttons {
+    margin: 0;
     background-color: var(--sticky);
     border: none;
-    color: white;
+    color: var(--header-text);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
   }
-input:focus{
+input:focus,#search-Langs:focus{
     outline: none;
 }
-.header{
-    font-size: 25px;
+.navi-buttons{
+    position: relative;
+transition: transform .2s;
+}
+.navi-buttons:hover{
+    transform: scale(1.2);
 }

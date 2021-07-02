@@ -19,9 +19,9 @@ export const StickyContainer = props => (
         />
         </div>
         <div id="navigation">
-        <div className ='nav-item3'><a  href='#aboutAuthor-container' className="navi-buttons">
+        <div className ='nav-item3' onClick={()=>(document.documentElement.scrollTop = 0)}><p className="navi-buttons">
             About Author
-        </a></div>
+        </p></div>
         <div className ='nav-item4'><a href='#projects-container' className="navi-buttons">
             Projects
         </a></div>

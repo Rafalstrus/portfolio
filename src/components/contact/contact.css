@@ -7,10 +7,14 @@ border-radius: 10px;
 }
 .contact-info{
     font-size: 20px;
-    color: #4CAF50;;
-}
-.contact-type{
-    
+    color: #4CAF50;
+    -webkit-user-select: auto;
+    -khtml-user-select: auto;
+    -moz-user-select: auto;
+    -ms-user-select: auto;
+    -o-user-select: auto;
+    user-select: auto;
+
 }
 #contact-info-container{
     margin:auto;

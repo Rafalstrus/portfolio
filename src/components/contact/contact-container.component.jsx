@@ -1,7 +1,7 @@
 import React from 'react';
 import './contact.css'
 export const Contact = props => (
-    <div id="contact-container">
+    <div id="contacts-container">
         <p className="header">{props.contactInfo.contact}</p>
         <div id="contact-info-container">
             <div id="cellphone-Number">
