@@ -59,7 +59,7 @@
                 ],
                 "img": "projects-photos/website-about-money.png",
                 "description": "strona uzywająca api narodowego banku polskiego, przelicza kursy walut, po aktualnych kursach",
-                "link": "https://github.com/Rafalstrus/Website-About-Money-"
+                "link": "https://serene-liskov-393d47.netlify.app/"
             },
             {
                 "name": "database generator",
@@ -132,7 +132,20 @@
                 ],
                 "img": "projects-photos/website-about-money.png",
                 "description": "website using api of the Polish National Bank, convers currency rates at the current rates",
-                "link": "https://github.com/Rafalstrus/Website-About-Money-"
+                "link": "https://serene-liskov-393d47.netlify.app/"
+            },
+            {
+                "name" : "weather app",
+                "technologies" : [
+                    "react",
+                    "html",
+                    "node.js",
+                    "css",
+                    "js"
+                ],
+                "img": "projects-photos/weather-app.png",
+                "description" : "app using openweatherapp api to get data about weather",
+                "link" : "https://compassionate-heisenberg-0d49f5.netlify.app/"
             },
             {
                 "name": "database generator",
