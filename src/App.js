@@ -5,7 +5,7 @@ import { AuthorHeader } from './components/aboutAuthor/header.component';
 import { Technologies } from './components/technologies/technologies.component';
 import { ProjectsContainer } from './components/projects/projects-container.component';
 import { Contact } from './components/contact/contact-container.component';
-import {Footer} from './components/footer/footer.component'
+import { Footer } from './components/footer/footer.component'
 
 import Cookies from 'universal-cookie';
 const cookies = new Cookies();
@@ -16,7 +16,7 @@ class App extends Component {
     this.state = {
       currentLanguageCode: (cookies.get('languageCode') === 'PL') ? "PL" : "EN",
       allTexts: [],
-      colorMode: (cookies.get('colorMode') === 'dark') ? "dark" : "light",
+      colorMode: (cookies.get('colorMode') === 'light') ? "light" : "dark",
     }
   }
 
@@ -70,8 +70,8 @@ class App extends Component {
             <Contact
               contactInfo={info.contact}
             />
-            <Footer 
-            informations={info.footer}
+            <Footer
+              informations={info.footer}
             />
           </div>
 

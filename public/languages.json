@@ -62,6 +62,19 @@
                 "link": "https://serene-liskov-393d47.netlify.app/"
             },
             {
+                "name" : "weather app",
+                "technologies" : [
+                    "react",
+                    "html",
+                    "node.js",
+                    "css",
+                    "js"
+                ],
+                "img": "projects-photos/weather-app.png",
+                "description" : "app using openweatherapp api to get data about weather",
+                "link" : "https://compassionate-heisenberg-0d49f5.netlify.app/"
+            },
+            {
                 "name": "database generator",
                 "technologies": [
                     "python",
@@ -86,7 +99,7 @@
         "aboutAuthor": {
             "header": "About Author",
             "name": "Rafał Struś",
-            "informations": "I am Rafał Struś, in this year I have finished IT Technican high school, and I am going to continue education on University to study IT. I am learning programming for several years. Every day I try to develop programming passion and learn new things",
+            "informations": "I am Rafał Struś, this year I have finished IT Technican high school, and I am going to continue education on University to study IT. I have been learning programming for several years. Every day I try to develop programming passion and learn new things",
             "image": ""
         },
         "projects-header": "Projects",
@@ -94,7 +107,7 @@
             "header": "Technologies",
             "technologies-headers": [
                 {
-                    "header": "I Well Known",
+                    "header": "I Know Well ",
                     "technologies": [
                         "html",
                         "mysql",

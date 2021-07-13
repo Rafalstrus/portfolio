@@ -51,10 +51,10 @@ const setColors = props =>{
 export const ColorChange = props =>(
     <div className ='nav-item2'>
         <button onClick = {e =>{
-            props.colorChange((props.colorMode==="dark") ? "light" : "dark")
+            props.colorChange((props.colorMode==="light") ? "dark" : "light")
             cookies.set('colorMode',(props.colorMode==="dark") ? "light" : "dark")
         }
-        }>{(props.colorMode==="dark") ? "light" : "dark"}</button>
+        }>{(props.colorMode==="light") ? "dark" : "light"}</button>
         {setColors(colors[props.colorMode])}
     </div>
 )
