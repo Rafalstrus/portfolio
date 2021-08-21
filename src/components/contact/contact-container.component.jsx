@@ -4,10 +4,6 @@ export const Contact = props => (
     <div id="contacts-container">
         <p className="header">{props.contactInfo.contact}</p>
         <div id="contact-info-container">
-            <div id="cellphone-Number">
-                <span className="contact-type">{props.contactInfo["cellphone-Number"]}</span>
-                <span className="contact-info">883 598 145</span>
-            </div>
             <div id="email-Adress">
                 <span className="contact-type">{props.contactInfo["email-address"]}</span>
                 <span className="contact-info">rafal.strus@onet.eu</span>
