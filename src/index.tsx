@@ -4,11 +4,24 @@ import './css/index.css';
 import { CookiesProvider } from "react-cookie";
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import i18next from './translations/i18n';
+import { I18nextProvider } from 'react-i18next';
+import rootReducer from './store/store';
+import { createStore } from '@reduxjs/toolkit';
+import { Provider } from 'react-redux';
+
+
+const store = createStore(rootReducer);
+
 ReactDOM.render(
   <React.StrictMode>
-    <CookiesProvider>
-    <App />
-    </CookiesProvider>
+    <Provider store={store}>
+      <CookiesProvider>
+        <I18nextProvider i18n={i18next}>
+          <App />
+        </I18nextProvider>
+      </CookiesProvider>
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );

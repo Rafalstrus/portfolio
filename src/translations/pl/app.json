@@ -1,0 +1,11 @@
+{
+    "aboutAuthor": {
+        "header": "O Autorze",
+        "name": "Rafał Struś",
+        "informations": "Nazywam się Rafał Struś, w tym roku ukończyłem technikum informatycznę, planuję w najbliższym czasie kontynówać naukę na studiach informatycznych. Programowania uczę się od kilku lat, codziennie staram się rozwijać pasję związaną z programowaniem i uczyć się nowych rzeczy"
+    },
+    "language": {
+        "pl": "Polski",
+        "en": "English"
+    }
+}
