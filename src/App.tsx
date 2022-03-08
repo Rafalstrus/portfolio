@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './css/App.css';
 // import { StickyContainer } from './components/organisms/navbar/navbar';
 // import { AuthorHeader } from './components/aboutAuthor/header.component';
@@ -7,17 +7,27 @@ import './css/App.css';
 // import { Contact } from './components/contact/contact-container.component';
 // import { Footer } from './components/footer/footer.component'
 import MainPage from './components/pages/Main.page';
-import Cookies from 'universal-cookie';
-import { Box } from '@mui/system';
-
-const cookies = new Cookies();
+import { ThemeProvider } from '@emotion/react';
+import { RootStateOrAny, useSelector } from 'react-redux';
+import { createTheme } from '@mui/material';
 
 function App() {
 
+  const themeState = useSelector((state: RootStateOrAny) => state.themeState);
+  const theme = React.useMemo(
+    () => (createTheme({
+      palette: {
+        mode: (themeState.value === 'light') ? 'light' : 'dark',
+      },
+    })),
+    [themeState.value]
+  );
+
+
   return (
-    <Box>
+    <ThemeProvider theme={theme}>
       <MainPage />
-    </Box>
+    </ThemeProvider>
   )
 }
 // old version

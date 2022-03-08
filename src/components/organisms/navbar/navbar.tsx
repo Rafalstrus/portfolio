@@ -16,8 +16,6 @@ export const Navbar = (props: any) => (
             />
         </Box>
         <ColorChange
-            colorMode={props.colorMode}
-            colorChange={props.colorChange}
         />
         </Box>
         <Box id="navigation">

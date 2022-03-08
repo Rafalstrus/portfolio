@@ -1,14 +1,14 @@
 import React from 'react';
 import './aboutAuthor.css'
-export const AuthorHeader = props =>(
+export const AuthorHeader = (props: any) => (
     <div id="authorHeader">
-            <div id="author-wrapper">
+        <div id="author-wrapper">
             <p className="header">
                 {props.informations.aboutAuthor.header}
-                </p>
+            </p>
             <p>
                 {props.informations.aboutAuthor.informations}
-                </p>
-            </div>
+            </p>
+        </div>
     </div>
 )
