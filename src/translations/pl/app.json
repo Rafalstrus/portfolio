@@ -8,5 +8,16 @@
         "pl": "Polski",
         "en": "English"
     },
-    "footerText": "Strona stworzona przez Rafała Struś"
+    "footerText": "Strona stworzona przez Rafała Struś",
+    "technologies" : {
+        "header": "technologie",
+        "iKnowWell": "Dobrze Znam",
+        "iAmLearning": "Uczę się",
+        "iWantToKnows": "Chcę poznać"
+    },
+    "contact": {
+        "header": "CONTACT",
+        "github-Link": "Github: "
+    },
+    "email-address": "Adres email: "
 }

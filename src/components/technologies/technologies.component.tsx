@@ -1,16 +1,20 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import './technologies.css';
-export const Technologies = (props: any) => (
-    <div id="technologies">
+export const Technologies = ({technolgies} : any) => {
+    const {t} = useTranslation('app')
+
+    return (
+        <div id="technologies">
         <p className="header">
-            {props.informations["header"]}
+            {t('technologies.header')}
         </p>
-        <div>{props.informations["technologies-headers"].map(
+        <div>{technolgies.map(
             (data: any) => (
-                <div key={data['header']}>
+                <div key={data.header}>
                     <div className="technolgy-row"><p className="technology-header">{data['header'] + ": "}</p>
                         <div>
-                            {data['technologies'].map(
+                            {data.technologies.map(
                                 (technology: any) => {
                                     return (<div key={technology} className="technolgy-block">
                                         <img className="technology-image" alt=""
@@ -26,4 +30,5 @@ export const Technologies = (props: any) => (
             )
         )} </div>
     </div>
-)
+    )
+}
