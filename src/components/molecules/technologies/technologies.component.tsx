@@ -12,7 +12,7 @@ export const Technologies = ({technolgies} : any) => {
         <div>{technolgies.map(
             (data: any) => (
                 <div key={data.header}>
-                    <div className="technolgy-row"><p className="technology-header">{data['header'] + ": "}</p>
+                    <div className="technolgy-row"><p className="technology-header">{t('technologies.' + data['header']) + ": "}</p>
                         <div>
                             {data.technologies.map(
                                 (technology: any) => {

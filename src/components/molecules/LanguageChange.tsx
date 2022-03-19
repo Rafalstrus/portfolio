@@ -10,7 +10,6 @@ export const LanguageChange = () =>{
     return (
         <Select
         value={i18n.language}
-        label="Age"
         onChange={(event: any) => i18n.changeLanguage(event.target.value)}
       >
         <MenuItem value={'pl'}>{t('language.pl')}</MenuItem>

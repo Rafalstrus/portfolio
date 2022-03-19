@@ -1,14 +1,9 @@
 import React from 'react';
 import './css/App.css';
-// import { StickyContainer } from './components/organisms/navbar/navbar';
-// import { AuthorHeader } from './components/aboutAuthor/header.component';
-// import { Technologies } from './components/technologies/technologies.component';
-// import { ProjectsContainer } from './components/projects/projects-container.component';
-// import { Contact } from './components/contact/contact-container.component';
-// import { Footer } from './components/footer/footer.component'
 import MainPage from './components/pages/Main.page';
 import { ThemeProvider } from '@emotion/react';
 import { RootStateOrAny, useSelector } from 'react-redux';
+import { CssBaseline } from '@mui/material/';
 import { createTheme } from '@mui/material';
 
 function App() {
@@ -22,10 +17,10 @@ function App() {
     })),
     [themeState.value]
   );
-
-
+  console.log(theme)
   return (
     <ThemeProvider theme={theme}>
+      <CssBaseline/>
       <MainPage />
     </ThemeProvider>
   )

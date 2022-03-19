@@ -4,8 +4,8 @@ import { Footer } from '../atoms/footer/footer.component';
 import { AuthorHeader } from '../molecules/aboutAuthor/header.component';
 import { Contact } from '../molecules/contact/contact-container.component';
 import { Navbar } from '../organisms/navbar/navbar';
-import { ProjectsContainer } from '../projects/projects-container.component';
-import { Technologies } from '../technologies/technologies.component';
+import { ProjectsContainer } from '../molecules/projects/projects-container.component';
+import { Technologies } from '../molecules/technologies/technologies.component';
 
 export default function MainTemplate() {
 
@@ -25,7 +25,7 @@ export default function MainTemplate() {
                         technologies: ["typescript", "redux", "sass", "symfony", "express"]
                     },
                     {
-                        header: "iWantToKnows",
+                        header: "iWantToKnow",
                         technologies: ["react-native"]
                     }
                 ]}
