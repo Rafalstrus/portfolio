@@ -1,37 +1,41 @@
-#sticky-container{
+#sticky-container {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    /* background-color: var(--sticky); */
     padding: 10px;
-    height:50px;
+    height: 50px;
     z-index: 1;
-   
+
 }
-#sticky-container-wrapper{
+
+#sticky-container-wrapper {
     display: flex;
     width: 90%;
     margin: auto;
 }
-#settings{
+
+#settings {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
 }
-#navigation{
+
+#navigation {
     display: flex;
     margin-left: auto;
     order: 2;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
     white-space: nowrap;
     gap: 10px;
 }
-#sticky-container-wrapper #navigation :hover > * , #sticky-container-wrapper #settings :hover > *{
+
+#sticky-container-wrapper #navigation :hover>*, #sticky-container-wrapper #settings :hover>* {
     cursor: pointer;
 }
-button,select,.navi-buttons {
+
+button, select, .navi-buttons {
     margin: 0;
     background-color: var(--sticky);
     border: none;
@@ -41,14 +45,17 @@ button,select,.navi-buttons {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-  }
-input:focus,#search-Langs:focus{
+}
+
+input:focus, #search-Langs:focus {
     outline: none;
 }
-.navi-buttons{
+
+.navi-buttons {
     position: relative;
-transition: transform .2s;
+    transition: transform .2s;
 }
-.navi-buttons:hover{
+
+.navi-buttons:hover {
     transform: scale(1.2);
 }

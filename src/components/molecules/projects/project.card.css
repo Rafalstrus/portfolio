@@ -1,25 +1,32 @@
-#projects-container{
+#projects-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
 }
-.project-card{
+@media only screen and (min-width: 1200px) {
+    #projects-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.project-card {
     margin-top: 15px;
     min-height: 300px;
     border-radius: 10px;
-    
 }
-.project-image{
-    height: 225px;
-    width: 350px;
+
+.project-image {
+    max-height: 225px;
+    max-width: 350px;
     margin: auto;
     margin-top: 5px;
     position: relative;
     transition: transform .2s;
 }
-.project-image:hover{
+
+.project-image:hover {
     transform: scale(1.1);
 }
-.project-names{
+
+.project-names {
     font-size: 20px;
 }
