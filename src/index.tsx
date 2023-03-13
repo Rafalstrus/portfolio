@@ -6,11 +6,11 @@ import reportWebVitals from './reportWebVitals';
 import i18next from './translations/i18n';
 import { I18nextProvider } from 'react-i18next';
 import store from './store/store';
-import { createRoot } from 'react-dom/client';
+import { createRoot, Root } from 'react-dom/client';
 import { Provider } from 'react-redux';
 
-const ROOT_CONTAINER: any = document.getElementById('root');
-const ROOT: any = createRoot(ROOT_CONTAINER);
+const ROOT_CONTAINER: HTMLElement = document.getElementById('root') as HTMLElement;
+const ROOT: Root = createRoot(ROOT_CONTAINER);
 
 ROOT.render(
   <React.StrictMode>

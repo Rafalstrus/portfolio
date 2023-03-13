@@ -15,3 +15,5 @@ const store = configureStore({
 });
 
 export default store;
+
+export type StoreState = ReturnType<typeof reducer>

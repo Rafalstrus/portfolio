@@ -1,8 +1,7 @@
 {
     "aboutAuthor": {
         "header": "O Autorze",
-        "name": "Rafał Struś",
-        "informations": "Jestem Rafał, pracuję jako junior fullstack developer od września 2021, od października jestem także studentem zaocznym na kierunku informatyka."
+        "informations": "Nazywam się Rafał Struś, w tym roku ukończyłem technikum informatycznę, planuję w najbliższym czasie kontynówać naukę na studiach informatycznych. Programowania uczę się od kilku lat, codziennie staram się rozwijać pasję związaną z programowaniem i uczyć się nowych rzeczy"
     },
     "language": {
         "pl": "Polski",
@@ -10,17 +9,20 @@
     },
     "footerText": "Strona stworzona przez Rafała Struś",
     "technologies": {
-        "header": "technologie",
+        "header": "Technologie",
         "iKnowWell": "Dobrze Znam",
         "iAmLearning": "Uczę się",
         "iWantToKnow": "Chcę poznać"
     },
     "contact": {
-        "header": "Kontakt",
-        "github-Link": "Github: "
+        "header": "Kontakt"
     },
-    "email-address": "Adres email: ",
+    "emailAddress": "Adres email",
     "projects": {
         "header": "Projekty"
+    },
+    "theme": {
+        "light": "jasny",
+        "dark": "ciemny"
     }
 }

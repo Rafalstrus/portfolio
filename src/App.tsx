@@ -5,24 +5,22 @@ import { ThemeProvider } from '@emotion/react';
 import { useSelector } from 'react-redux';
 import { CssBaseline } from '@mui/material/';
 import { createTheme } from '@mui/material';
+import { StoreState } from './store/store';
+import { themeStyles } from './styles/ThemeStyle';
 
 function App() {
-  const themeState = useSelector((state: any) => state.themeState);
+  const themeState = useSelector((state: StoreState) => state.themeState);
   const theme = React.useMemo(
-    () => (createTheme({
-      palette: {
-        mode: (themeState.value === 'light') ? 'light' : 'dark',
-      },
-    })),
+    () => (createTheme(themeStyles(themeState.value))),
     [themeState.value]
   );
 
-  return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <MainPage />
-    </ThemeProvider>
-  )
+return (
+  <ThemeProvider theme={theme}>
+    <CssBaseline />
+    <MainPage />
+  </ThemeProvider>
+)
 }
 
 export default App;

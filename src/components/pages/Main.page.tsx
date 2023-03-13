@@ -1,13 +1,10 @@
-import { Box } from '@mui/system';
 import React from 'react';
-import MainTemplate from '../templates/main.template';
+import MainTemplate from '../templates/Main.template';
 
 function MainPage() {
 
     return (
-        <Box>
-            <MainTemplate />
-        </Box>
+        <MainTemplate />
     )
 }
 export default React.memo(MainPage)

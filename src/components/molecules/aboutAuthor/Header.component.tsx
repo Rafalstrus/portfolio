@@ -2,7 +2,7 @@ import { Box } from '@mui/material';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import './aboutAuthor.css'
-export const AuthorHeader = () => {
+export default function AuthorHeader() {
     const { t } = useTranslation('app');
 
     return (

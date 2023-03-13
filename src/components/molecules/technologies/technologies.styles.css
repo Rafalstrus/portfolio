@@ -18,9 +18,6 @@
     margin: auto;
 }
 
-#technologies {
-    background-color: rgba(255, 255, 255, 0.1);
-    width: 50%;
-    padding: 5px;
-    margin-left: 5%;
+#technologies-container {
+    margin: auto;
 }

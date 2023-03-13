@@ -1,12 +1,13 @@
-#contact-container{
-max-width: 1600px;
-min-width: 1200px;
-margin: auto;
-margin-top: 10px;
-border-radius: 10px;
+#contact-container {
+    max-width: 1600px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
 }
-.contact-info{
-    font-size: 20px;
+
+.contact-info {
+    font-size: 1.3rem;
+    margin-left: 4px;
     color: #4CAF50;
     -webkit-user-select: auto;
     -khtml-user-select: auto;
@@ -16,9 +17,9 @@ border-radius: 10px;
     user-select: auto;
 
 }
-#contact-info-container{
-    margin:auto;
-    width: 500px;
+
+#contact-info-container {
+    margin: auto;
     text-align: justify;
     padding-bottom: 10px;
 }

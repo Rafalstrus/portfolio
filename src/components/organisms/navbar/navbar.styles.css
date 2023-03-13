@@ -3,9 +3,8 @@
     position: sticky;
     top: 0;
     padding: 10px;
-    height: 50px;
+    height: 64px;
     z-index: 1;
-
 }
 
 #sticky-container-wrapper {
@@ -31,11 +30,12 @@
     gap: 10px;
 }
 
-#sticky-container-wrapper #navigation :hover>*, #sticky-container-wrapper #settings :hover>* {
+#sticky-container-wrapper #navigation :hover>*,
+#sticky-container-wrapper #settings :hover>* {
     cursor: pointer;
 }
 
-button, select, .navi-buttons {
+.navi-buttons {
     margin: 0;
     background-color: var(--sticky);
     border: none;
@@ -47,7 +47,7 @@ button, select, .navi-buttons {
     font-size: 16px;
 }
 
-input:focus, #search-Langs:focus {
+#search-Langs:focus {
     outline: none;
 }
 
